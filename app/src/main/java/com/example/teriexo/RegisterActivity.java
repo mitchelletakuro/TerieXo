@@ -53,9 +53,9 @@ public class RegisterActivity extends AppCompatActivity {
                 if (NameValue.length()<1) {
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("Name", NameValue);
-                    editor.putString("Username", UsernameValue);
+                    editor.putString("username", UsernameValue);
                     editor.putString("Email", EmailValue);
-                    editor.putString("Password", PasswordValue);
+                    editor.putString("password", PasswordValue);
                     editor.putString("Phone", PhoneValue);
                     editor.apply();
 

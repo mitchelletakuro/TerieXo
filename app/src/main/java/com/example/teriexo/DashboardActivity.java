@@ -18,8 +18,8 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        //final  String RegisterdUsername = sharedPreferences.getString("Username", "Default Username");
-        //final  String RegisterdPassword = sharedPreferences.getString("Password", "Default Password");
+        //final  String RegisterdUsername = sharedPreferences.getString("username", "Default username");
+        //final  String RegisterdPassword = sharedPreferences.getString("password", "Default password");
         //final  String RegisterdPhone= sharedPreferences.getString("Phone", "Default Phone");
 
         Logout = findViewById(R.id.Logout);
